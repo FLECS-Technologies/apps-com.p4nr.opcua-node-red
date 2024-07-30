@@ -2,7 +2,7 @@ ARG ARCH
 ARG VERSION
 ARG VARIANT
 
-FROM scratch:${VERSION}
+FROM p4nr/node-red-opcua-flecs:${VERSION}
 
 ARG ARCH
 ARG VERSION
